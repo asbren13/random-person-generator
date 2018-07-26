@@ -24,7 +24,6 @@ export class AppComponent implements OnInit {
       .subscribe(
         randomUsers => {
           this.randomUsers = randomUsers['results'];
-          console.log(this.randomUsers);
         }
       )
   }
